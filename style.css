@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f0f4f8;
+    background: #414c57;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,22 @@ body {
     height: 100vh;
     margin: 0;
   }
+body{
+  background-image: url(thumb-1920-423529.jpg);
+  
+}
   
   h2 {
-    color: #2c3e50;
+    font-size:xxx-large;
+    color: #ffffff;
+    background-color: #ff0000;
+    border-radius: 1%;
+  }
+  h3 {
+    font-size: larger;
+    color: #3dcbe4;
+    background-color: #ac186e;
+    border-radius: 1%;
   }
   
   p {
@@ -22,7 +35,7 @@ body {
   
   input[type="text"] {
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
     border: 2px solid #ccc;
     border-radius: 8px;
     width: 300px;
@@ -51,4 +64,16 @@ body {
     padding: 2px 6px;
     border-radius: 4px;
   }
+ button.div{
+ 
+    padding: 10px 20px;
+    background-color: #c53713;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+ }
   
